@@ -5,7 +5,7 @@ and generate table.md and todo.md according to its site structure.
 
 ## Requirement
 
-bs4
-requests
+- bs4
+- requests
 
 **Tip:Usage of virtualenv is recommended.**
