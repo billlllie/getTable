@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 
-import urllib
-
 
 class ProbGetter:
     @staticmethod
@@ -78,6 +76,7 @@ for i,word in enumerate(keywords):
 
 body = ProbGetter.getCorTab(keywords,htmlstr)
 
+# encoding = 'utf-8' parameter is for windows
 with open('table.md','w',encoding='utf-8')as f:
     f.write("")
 
